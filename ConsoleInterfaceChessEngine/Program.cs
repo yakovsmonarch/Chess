@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using ChessEngine;
+
+Engine engine = new Engine();
 Console.WriteLine("Hello, World!");
