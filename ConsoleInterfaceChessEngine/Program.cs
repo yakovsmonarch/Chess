@@ -1,4 +1,5 @@
 ﻿using ChessEngine;
+using ConsoleInterfaceChessEngine.Menu;
 
-Engine engine = new Engine();
-Console.WriteLine("Hello, World!");
+MenuGame menuGame = new MenuGame(new Engine());
+menuGame.Run();
